@@ -60,6 +60,7 @@ if (isset($_ENV['KOHANA_ENV']))
  */
 Kohana::init(array(
 	'base_url'   => '/mini-cms/',
+        'index_file' => ''
 ));
 
 /**
